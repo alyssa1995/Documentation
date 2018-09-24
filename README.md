@@ -23,6 +23,11 @@ Each of these pages will contain their own necessary CSS and JavaScript files. T
 Since our sites are so complex, we have plenty of stylesheets and scripts that are required to keep them running. Here are the specific ones that are <b>necessary</b> for all sites as of September 24th, 2018. 
 
 ## Unique Landing Page (aka Single Layout)
+### Related Offer Types
+There is only one (1) offer type that will be passed in and out of the Single Layout Unique Landing Page. 
+1. Forms
+* These will be forms such as email submits and data gathering
+
 ### Scripts
 *jQuery*
 <br/>
@@ -97,5 +102,34 @@ This is dependent on ops whether they need Pushnami or not. Often times, you wil
 	})(window,document,'script','dataLayer','GTM-MBVPCH4');</script>
 	<!-- End Google Tag Manager --> 
 
+### CSS
+The CSS for the Unique Landing Page is going to be specific to this layout. It will simply define all of the fonts, images, formatting, etc. However, these are going to be very black and white files, as the customization for each offer will be in the container. 
 
-          
+*Framework - Bootstrap*
+<br/>
+		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+*Google Fonts/Font Awesome*
+<br/>
+You may include any fonts or icons you wish, just make sure they are compatible with Bootstrap. 
+
+*Custom CSS*
+This is where the skeleton CSS file lives. It should be universal enough so that different offer types are able to come and go through it. For example, a Single Layout should be able to hold an email submit form, a personal data form, and a contact info form without having to change the layout, only the container. 
+
+### Return Landing Page 
+The return landing page includes ALL OF THE SAME SCRIPTS with the addition of this small nugget of code that displays the users first name if we have it on file. 
+
+*First Name Code*
+
+		  <script type="text/javascript">
+		  $(document).ready(function(){
+		    var fname = "[{first_name}]";
+			if(fname == "" || fname == "undefined"){$(".firstName").append("You've been matched with multiple high-paying jobs and other opportunities!" );}
+		    else{$(".firstName").append(fname + ", you've been matched with multiple high-paying jobs and other opportunities!");}
+		});
+		</script>
+
+
+
+

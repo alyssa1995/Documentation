@@ -15,16 +15,22 @@ Layouts contain four (4) main components.
 3. TCPA
 4. Exit Page
 
-Each of these pages will contain their own necessary CSS and JavaScript files. These can be found (#-here)
+Each of these pages will contain their own necessary CSS and JavaScript files. These can be found below:
 
 
 # HTML, CSS, and Javascript for Layouts
 
 Since our sites are so complex, we have plenty of stylesheets and scripts that are required to keep them running. Here are the specific ones that are <b>necessary</b> for all sites as of September 24th, 2018. 
 
-<b>Scripts</b>
+## Unique Landing Page
+### Scripts
+*jQuery*
 <br/>
-<i>RegPath</i>
+Most of our old sites are in fact using older versions of jQuery. However, moving forward we are going to be using the latest version of jQuery availible. 
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+
+*RegPath*
 
 	  <script type="text/javascript" src="[{offer_cdn_url}]/js/extend.js"></script>
       <script type="text/javascript" src="[{offer_cdn_url}]/js/moment.js"></script>

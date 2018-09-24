@@ -30,6 +30,15 @@ Most of our old sites are in fact using older versions of jQuery. However, movin
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 
+*Framework - Bootstrap*
+<br/>
+ALL OF OUR SITES WILL BE UTILIZING THE BOOTSTRAP FRAMEWORK FROM NOW ON! Please always use Bootstrap syntax, this is huge for consistency and often results in issues that could have easily been avoided if Bootstrap had been used. We will be using the most current version of Bootstrap, which right now is 4.0 (as of September 24th, 2018).
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
 *RegPath*
 
 	  <script type="text/javascript" src="[{offer_cdn_url}]/js/extend.js"></script>
@@ -43,4 +52,20 @@ Most of our old sites are in fact using older versions of jQuery. However, movin
       <script type="text/javascript" src="[{offer_cdn_url}]/js/RegPath.PersonalInfo.js?rev=201804225"></script>
       <script type="text/javascript" src="[{offer_cdn_url}]/js/jquery.mask.min.js"></script>
       <script type="text/javascript" src="[{offer_cdn_url}]/js/RegPath.Pixel.js?rev=201704101403"></script> 
+
+*Form Validation*
+<br/>
+We are using a validation JavaScript plugin, so be sure to include this in order ensure proper form validation. 
+
+	<script src="[{offer_cdn_url}]/js/omgsweeps/validator.js"></script>  
+
+*Recaptcha* 
+<br/>
+	
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	
+	
+      
+
+
           

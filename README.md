@@ -2,7 +2,9 @@
 
 Welcome front-end devs to the What If Media Group Documentation for our ever-so-beautiful websites! First things first, this doc is meant to provide a guide to keep all of our sites <i>consistent, managable </i>, and <i>flexible</i>. This will outline where all links should be placed, script locations, necessary scripts, Pushnami/Google Tag Manager/ArcaMax requirements, layout and container formatting, frameworks, versioning, QA, and much more we use to keep these sites running smoothly. So, without further ado...  
 
-<b>HTML, CSS, and Javascript</b>
+Our sites are set up so that there is a <b>Container</b> which corresponds to a <b>Layout</b>.
+
+# HTML, CSS, and Javascript for Layouts
 
 Since our sites are so complex, we have plenty of stylesheets and scripts that are required to keep them running. Here are the specific ones that are <b>necessary</b> for all sites as of September 24th, 2018. 
 

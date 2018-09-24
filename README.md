@@ -63,9 +63,30 @@ We are using a validation JavaScript plugin, so be sure to include this in order
 <br/>
 	
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	
-	
-      
+
+*Pushnami* 
+<br/>
+This is dependent on sales whether they need Pushnami or not. Often times, you will be making two versions of the site, one with Push and one without. 
+
+		<script type="text/javascript">
+		(function(document, window){
+		    var script = document.createElement("script");
+		    script.type = "text/javascript";
+		    script.src = "https://api.pushnami.com/scripts/v1/pushnami-adv/5ad8f62e29cfb115a3295cc5";
+		    script.onload = function() {
+			Pushnami
+			    .update({
+				"pstag": "R-[{sequence_id}]",
+				"aff_id": "[{aff_id}]",
+				"email": "[{email}]"
+			    })
+			    .prompt()
+		    };
+		    document.getElementsByTagName("head")[0].appendChild(script);
+		})(document, window);
+		</script>
+
+
 
 
           

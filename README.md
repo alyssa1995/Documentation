@@ -4,6 +4,9 @@ Welcome front-end devs to the What If Media Group Documentation for our ever-so-
 
 Our sites are set up so that there is a <b>Container</b> which corresponds to a <b>Layout</b>.
 
+### Layout 
+Layouts are home to the *skeletons* of the websites. They contain all of the CSS files, JavaScript files, and any necessary Advertisement requirements (Google Tag Manager, Pushnami). They **DO NOT** contain any specific stylistic component, rather, they include the general/base CSS required to format the *container* properly, but that is all. Aesthetics are handled directly in the *container*. 
+
 # HTML, CSS, and Javascript for Layouts
 
 Since our sites are so complex, we have plenty of stylesheets and scripts that are required to keep them running. Here are the specific ones that are <b>necessary</b> for all sites as of September 24th, 2018. 

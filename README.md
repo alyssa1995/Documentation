@@ -15,6 +15,8 @@ Layouts contain four (4) main components.
 3. TCPA
 4. Exit Page
 
+Each of these pages will contain their own necessary CSS and JavaScript files. These can be found (#-here)
+
 
 # HTML, CSS, and Javascript for Layouts
 

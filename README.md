@@ -22,7 +22,7 @@ Each of these pages will contain their own necessary CSS and JavaScript files. T
 
 Since our sites are so complex, we have plenty of stylesheets and scripts that are required to keep them running. Here are the specific ones that are <b>necessary</b> for all sites as of September 24th, 2018. 
 
-## Unique Landing Page
+## Unique Landing Page (aka Single Layout)
 ### Scripts
 *jQuery*
 <br/>
@@ -66,7 +66,7 @@ We are using a validation JavaScript plugin, so be sure to include this in order
 
 *Pushnami* 
 <br/>
-This is dependent on sales whether they need Pushnami or not. Often times, you will be making two versions of the site, one with Push and one without. 
+This is dependent on ops whether they need Pushnami or not. Often times, you will be making two versions of the site, one with Push and one without. 
 
 		<script type="text/javascript">
 		(function(document, window){
@@ -86,7 +86,16 @@ This is dependent on sales whether they need Pushnami or not. Often times, you w
 		})(document, window);
 		</script>
 
-
+*Google Tag Manager*
+<br/>
+      
+        <!-- Google Tag Manager -->      
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MBVPCH4');</script>
+	<!-- End Google Tag Manager --> 
 
 
           

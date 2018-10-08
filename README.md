@@ -21,14 +21,14 @@ Each of these pages will contain their own necessary CSS and JavaScript files. T
 # HTML, CSS, and Javascript for Layouts
 
 Since our sites are so complex, we have plenty of stylesheets and scripts that are required to keep them running. Here are the specific ones that are <b>necessary</b> for all sites as of September 24th, 2018. 
-
-## Unique Landing Page (aka Single Layout)
-### Related Offer Types
+## LANDING PAGES
+### Unique Landing Page (aka Single Layout)
+#### Related Offer Types
 There is only one (1) offer type that will be passed in and out of the Single Layout Unique Landing Page. 
 1. Forms
 * These will be forms such as email submits and data gathering
 
-### Scripts
+#### Scripts
 *jQuery*
 <br/>
 Most of our old sites are in fact using older versions of jQuery. However, moving forward we are going to be using the latest version of jQuery availible. 
@@ -102,7 +102,7 @@ This is dependent on ops whether they need Pushnami or not. Often times, you wil
 	})(window,document,'script','dataLayer','GTM-MBVPCH4');</script>
 	<!-- End Google Tag Manager --> 
 
-### CSS
+#### CSS
 The CSS for the Unique Landing Page is going to be specific to this layout. It will simply define all of the fonts, images, formatting, etc. However, these are going to be very black and white files, as the customization for each offer will be in the container. 
 
 *Framework - Bootstrap*
@@ -117,7 +117,7 @@ You may include any fonts or icons you wish, just make sure they are compatible 
 *Custom CSS*
 This is where the skeleton CSS file lives. It should be universal enough so that different offer types are able to come and go through it. For example, a Single Layout should be able to hold an email submit form, a personal data form, and a contact info form without having to change the layout, only the container. 
 
-## Return Landing Page 
+### Return Landing Page 
 The return landing page includes ALL OF THE SAME SCRIPTS with the addition of this small nugget of code that displays the users first name if we have it on file. 
 
 *First Name Code*

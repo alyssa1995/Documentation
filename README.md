@@ -145,7 +145,7 @@ The offers that are housed by the midpath are as follows:
 #### Scripts
 *jQuery*
 
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" 	integrity="sha256FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 	
 *Framework - Bootstrap*
 

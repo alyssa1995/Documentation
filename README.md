@@ -131,5 +131,15 @@ The return landing page includes ALL OF THE SAME SCRIPTS with the addition of th
 		</script>
 
 
+## Midpath
+The midpath is where all of the different offer variations will be found. 
+
+#### Related Offer Templates
+The offers that are housed by the midpath are as follows: 
+1. Forms
+2. Banners
+3. Questions
+4. iFrames
+5. Multi Offers
 
 

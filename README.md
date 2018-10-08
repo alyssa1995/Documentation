@@ -117,7 +117,7 @@ You may include any fonts or icons you wish, just make sure they are compatible 
 *Custom CSS*
 This is where the skeleton CSS file lives. It should be universal enough so that different offer types are able to come and go through it. For example, a Single Layout should be able to hold an email submit form, a personal data form, and a contact info form without having to change the layout, only the container. 
 
-### Return Landing Page 
+## Return Landing Page 
 The return landing page includes ALL OF THE SAME SCRIPTS with the addition of this small nugget of code that displays the users first name if we have it on file. 
 
 *First Name Code*
